@@ -31,9 +31,9 @@ container.style.backgroundColor = "royalblue";
 // 6: Select all <a> elements that have a 'title' attribute. 
 //    Set their color value to the color of your choice.
 
-const titleLinks = document.querySelectorAll("a title");
+const titleLinks = document.querySelectorAll("a[title]");
                                              
 for (let i = 0; i < titleLinks.length; i++) {
-titleLinks[i].style.backgroundColor = "purple";
+titleLinks[i].style.color = "coral";
 }                                       
 
